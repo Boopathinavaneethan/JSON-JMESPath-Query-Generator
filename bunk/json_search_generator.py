@@ -40,7 +40,7 @@ def process_json(input_file):
         print(f"JSON format error: {e.msg} at line {e.lineno}, column {e.colno}")
         return None
 
-# File name
+# File name.
 input_file = 'json_data_input.json'
 
 # Process the JSON file and generate JMESPath queries with results
